@@ -1,0 +1,211 @@
+
+      body {
+        font: 20px Montserrat, sans-serif;
+        line-height: 1.8;
+      }
+      
+      
+      
+      
+/*forandrer på font og høyde på font*/
+    .maintext1{
+        background-color: gray;
+        Color: white;
+    }
+    /* foandrer på øverste text i grå kollonne*/
+    
+    .maintext2{
+        background-color: rgb(63, 63, 133);
+        Color: white;
+        padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    /* forandrer på andre text i blå kollonne */
+    
+    .maintext3{
+        background-color: whitesmoke;
+        Color: black;
+        padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    .col-sm-4{
+        color:black;
+      }
+     
+    /* forandrer på text i hvit kollonne*/
+    
+    .tree{
+      border-radius: 15px;
+    }
+    
+    .water{
+      border-radius: 15px;
+    }
+    
+    .leaves{
+      border-radius: 15px;
+    }
+    /* forandrer på bildene "leaves", "tree" og "water"*/
+
+
+    
+    .navbarindex {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 12px;
+        letter-spacing: 5px;
+      }
+      
+      .navbar-nav li a:hover {
+        color: #1abc9c !important;
+
+      }
+
+  
+      /*Forandrer på navbar*/
+
+      .footerindex {
+        background-color: #2f2f2f;
+        color: white;
+        padding: 60px;
+
+    }
+   /*forandrer på footer*/
+
+
+    .headertext{
+      Color: white;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  /*styler overskriften*/
+
+  .work{
+    position: relative;
+    background-color: gray;
+    color:azure;
+    padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+
+.col-sm-4 {
+  text-align: center;
+  margin: 25px 0;
+}
+}
+/*styler work boksen */
+
+.pog{
+  Position: relative;
+  border-radius: 100px;
+  left: 50px;
+}
+/*Forandrer på pog bilde*/
+
+.someofmywork{
+  position: relative;
+  left: 100px;
+  top:50px;
+  font-size: 20px;
+}
+/*Forander på text i Some of my Work*/
+
+.Duermin{
+  position: relative;
+  padding: 50px;
+left: 345px;
+ border-radius: 100px;
+}
+/*forandrer på videoen*/
+
+.work1{
+  position: relative;
+  background-color: rgb(83, 83, 83);
+  color:azure;
+  text-align: right;
+  Height: 500px;
+}
+/*forandrer på boksen*/
+
+.pog1{
+  Position: relative;
+  border-radius: 50px;
+  right: 600px;
+  bottom: 300px;
+}
+/*styler bilde i box 2*/
+
+.arbeidbox1{
+  position: relative;
+text-align: right;
+left: 70%;
+top: 120px;
+}
+/*forandrer på text i box2*/
+
+.listofschools{
+  position: relative;
+left: 110px;
+}
+
+
+.active {
+  background-color: gray;
+}
+/*Vis hvilken side du er på*/
+
+.Whitepants {
+  position: relative;
+  border-radius: 30px;
+  left: 1100px;
+
+}
+/*forandrer på bilde*/
+
+.Hobbiesbox{
+ height: 0px;
+ 
+}
+/*gjør som at boksen er en normal størelse*/
+
+.pantswork{
+  position: relative;
+  background-color: rgb(64, 75, 176);
+  color:azure;
+  padding: 50px;
+}
+/*boksen av hobbier.html*/
+
+.mac{
+  position: relative;
+  left: 560px;
+  font-size: 50px;
+  
+ }
+/*texten som sier at jeg er mac user*/
+
+ .apple {
+  position: relative;
+  border-radius: 30px;
+  left: 30px;
+
+}
+/*bilde av apple*/
+
+.footerindex{
+  position: fixed;
+  left:0;
+  bottom:0;
+  width: 100%;
+}
+/*gjør som at footer er alltid på bunn av siden*/
+
+.contacthtml{
+  position: relative;
+  padding: 50px;
+  background-color: #2f2f2f;
+}
